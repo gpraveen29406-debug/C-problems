@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    
+    void swap(int x,int y){
+        int temp;
+        x=y;
+        y=temp;
+    }
+    int main(){
+        int a=10,b=20;
+        swap (a,b);
+        printf("After swap: a=%d,b=%d",a,b);
+        return 0;
+    }
+    
+    return 0;
+}
