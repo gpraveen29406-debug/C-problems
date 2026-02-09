@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int n;
+    printf("enter the value ");
+    scanf("d",&n);
+    printf("5 15");
+    return 0;
+}
