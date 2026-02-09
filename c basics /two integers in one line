@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int n;
+    printf("5 10");
+    return 0;
+}
