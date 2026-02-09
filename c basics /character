@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    char a=1;
+    printf("enter the char ");
+    scanf("%c",&a);
+    return 0;
+}
