@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int a;
+    printf("enter the number");
+    scanf("%d",&a);
+    if ((a>=30000)&&(a<=35000))
+    printf("eligible");
+    else 
+    printf("not eligible");
+    return 0;
+}
