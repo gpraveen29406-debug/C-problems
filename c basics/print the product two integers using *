@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int a=4;
+    int b=5;
+    printf("enter the values");
+    scanf("%d %d",&a,&b);
+    printf("%d %d",a*b);
+    return 0;
+}
