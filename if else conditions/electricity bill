@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int u; float bill;
+    scanf("%d",&u);
+    if(u<=50) bill=u*3;
+    else if(u<=100) bill=50*3+(u-50)*4;
+    else bill=50*3+50*4+(u-100)*5;
+    printf("Bill amount = Rs. %.0f",bill);
+    return 0;
+}
