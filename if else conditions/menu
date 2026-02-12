@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int ch,a,b;
+    printf("1.Add 2.Sub\n");
+    scanf("%d",&ch);
+    scanf("%d%d",&a,&b);
+    switch(ch) {
+        case 1: printf("Sum = %d",a+b); break;
+        case 2: printf("Difference = %d",a-b); break;
+    }
+    return 0;
+}
