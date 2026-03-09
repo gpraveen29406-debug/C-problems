@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    int N, i = 0;
+    int balance;
+    int finalBalance = 0;
+    int violationDays = 0;
+
+    scanf("%d", &N);
+
+    while(i < N) {
+        scanf("%d", &balance);
+
+        finalBalance = balance;
+
+        if(balance < 2000) {
+            violationDays++;
+        }
+
+        i++;
+    }
+
+    printf("Final Balance: %d\n", finalBalance);
+    printf("Days Below Minimum Balance: %d\n", violationDays);
+
+    return 0;
+}
