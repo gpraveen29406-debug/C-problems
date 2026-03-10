@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main()
+{
+    int totalData, N;
+    int usage;
+    int i = 0;
+    int days = 0;
+
+    printf("Enter total data (GB): ");
+    scanf("%d", &totalData);
+
+    printf("Enter number of days: ");
+    scanf("%d", &N);
+
+    while(i < N && totalData > 0)
+    {
+        printf("Enter data usage for day %d: ", i + 1);
+        scanf("%d", &usage);
+
+        if(totalData >= usage)
+        {
+            totalData = totalData - usage;
+            days++;
+        }
+        else
+        {
+            break;
+        }
+
+        i++;
+    }
+
+    printf("Days Data Lasted: %d\n", days);
+    printf("Remaining Data: %d GB\n", totalData);
+
+    return 0;
+}
